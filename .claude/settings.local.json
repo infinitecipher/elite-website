@@ -34,7 +34,8 @@
       "Bash(Read /private/tmp/claude-501/-Users-jrdev-projects-react-elite-website/701d6e1e-7eeb-4de1-ac86-95c6014dd853/tasks/bl8y3zo6r.output)",
       "Bash(echo \"EXIT: $?\")",
       "Bash(node node_modules/jest/bin/jest.js --no-coverage)",
-      "Bash(node node_modules/jest/bin/jest.js --no-coverage __tests__/components/sections/Hero.test.tsx)"
+      "Bash(node node_modules/jest/bin/jest.js --no-coverage __tests__/components/sections/Hero.test.tsx)",
+      "Bash(node node_modules/jest/bin/jest.js --no-coverage __tests__/components/layout/Footer.test.tsx)"
     ]
   }
 }

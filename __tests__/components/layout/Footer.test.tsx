@@ -47,4 +47,14 @@ describe('Footer', () => {
       screen.getByText(/elite global workforce/i)
     ).toBeInTheDocument()
   })
+
+  it('renders the InfiniteCipher link with correct href', () => {
+    const links = screen.getAllByRole('link')
+    const icLink = links.find(
+      (l) => l.getAttribute('href') === 'https://www.infinitecipher.com/'
+    )
+    expect(icLink).toBeDefined()
+    expect(icLink).toHaveAttribute('target', '_blank')
+    expect(icLink).toHaveAttribute('rel', expect.stringContaining('noopener'))
+  })
 })

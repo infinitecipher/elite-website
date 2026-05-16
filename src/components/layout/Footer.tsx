@@ -120,12 +120,17 @@ export function Footer() {
           <p className="text-white/40 text-sm text-center sm:text-left">
             &copy; 2023&ndash;2026 Elite Global Workforce. All rights reserved.
           </p>
-          <div className="flex items-center gap-2 leading-none">
+          <a
+            href="https://www.infinitecipher.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 leading-none opacity-70 hover:opacity-100 transition-opacity duration-200"
+          >
             <span className="text-white/30 text-xs whitespace-nowrap">Developed by</span>
             <div className="flex items-center" style={{ marginTop: "-1px" }}>
               <InfiniteCipherWordmark />
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </footer>
